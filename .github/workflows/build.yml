@@ -1,0 +1,48 @@
+name: Hexo CI/CD
+on:
+  push:
+    branches:
+        - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
+
+      - name: Install Hexo
+        run: npm install -g hexo-cli
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./hexo
+
+      - name: Generate static files
+        run: hexo generate
+        working-directory: ./hexo
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hexo-site
+          path: ./hexo/public
+          compression-level: 9
+
+      - name: Deploy to Server
+        env:
+          SERVER_IP: ${{ secrets.SERVER_IP }}
+          SERVER_PORT: ${{ secrets.SERVER_PORT }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass
+          sshpass -p "${PASSWORD}" ssh -p ${SERVER_PORT} -o StrictHostKeyChecking=no $USERNAME@$SERVER_IP 'rm -rf /usr/local/hexo-site/*'
+          sshpass -p "${PASSWORD}" scp -P ${SERVER_PORT} -o StrictHostKeyChecking=no -r ./hexo/public/* $USERNAME@$SERVER_IP:/usr/local/hexo-site
+      
+    
