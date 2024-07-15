@@ -222,4 +222,6 @@ footer_links:
 #! ---------------------------------------------------------------
 shiki:
   enable: true
-  backgroundColor: "#1a1a1a"
+  theme: material-theme-palenight
+  externalTheme:
+  backgroundColor: '#1a1a1a'
