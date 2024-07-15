@@ -12,7 +12,7 @@ site:
   subtitle: ZNH的小黑屋
   author: ZNH
   nick: The Hacker
-  description: 啊？
+  description: 如果有不同意见，那你说的对
   link: '/'
   language: zh-CN
   multi_language: true
@@ -89,7 +89,9 @@ socials:
       link: https://space.bilibili.com/2853155
   
   ##! --- Using IconFont
-  # baidu:
+    telegram:
+      icon: /svg/telegram.svg
+      link: https://t.me/nsddnsdd
   #   icon: iconfont icon-baidu
   #   link: https://live.bilibili.com/22619211
 
