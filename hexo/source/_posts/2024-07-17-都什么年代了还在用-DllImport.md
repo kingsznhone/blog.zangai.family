@@ -93,6 +93,9 @@ public partial class Calculator
 
 本机代码调用换成`[LibraryImport]`以后，benchmark出来的计算速度是纯C#实现的30%。相比`[DllImport]`，节省了40%的动态IL stub生成的开销
 
+![Benchmark](https://raw.githubusercontent.com/kingsznhone/VSOP2013.NET/main/README/NativeAccelerate.png)
+
+
 整体结果可以说是非常令人满意了。就算使用纯Cpp实现算法，也不一定会比这个混合计算快。
 
 计算热点函数占用程序90%以上的CPU时间，反而有可能因为cpp水平太菜写出奇怪的代码，导致速度比用纯C#实现还慢。
