@@ -41,9 +41,6 @@ importers:
       hexo-theme-aurora:
         specifier: ^2.5.3
         version: 2.5.3
-      hexo-theme-landscape:
-        specifier: ^1.0.0
-        version: 1.0.0
 
 packages:
 
@@ -108,8 +105,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/types@7.24.8':
-    resolution: {integrity: sha512-SkSBEHwwJRU52QEVZBmMBnE5Ux2/6WU1grdYyOhpbCNxbmJrDuDCphBzKZSO3taf0zztp+qkWlymE5tVL5l0TA==}
+  '@babel/types@7.24.9':
+    resolution: {integrity: sha512-xm8XrMKz0IlUdocVbYJe0Z9xEgidU7msskG8BbhnTPK/HZ2z/7FP7ykqPgrUH+C+r414mNfNWam1f2vqOjqjYQ==}
     engines: {node: '>=6.9.0'}
 
   '@intlify/core-base@9.13.1':
@@ -589,9 +586,6 @@ packages:
 
   hexo-theme-aurora@2.5.3:
     resolution: {integrity: sha512-XYe7kcXSGp+cJIWgkKn0Uv/RwY1bIJdQAtJFC+KZRsodHhw1sfsQ4zrroX+07tNy0Z0DG5rObzGzPDWfrCuNUA==}
-
-  hexo-theme-landscape@1.0.0:
-    resolution: {integrity: sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==}
 
   hexo-util@3.3.0:
     resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
@@ -1296,9 +1290,9 @@ snapshots:
 
   '@babel/parser@7.24.8':
     dependencies:
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
 
-  '@babel/types@7.24.8':
+  '@babel/types@7.24.9':
     dependencies:
       '@babel/helper-string-parser': 7.24.8
       '@babel/helper-validator-identifier': 7.24.7
@@ -1862,8 +1856,6 @@ snapshots:
       - '@vue/composition-api'
       - debug
       - typescript
-
-  hexo-theme-landscape@1.0.0: {}
 
   hexo-util@3.3.0:
     dependencies:

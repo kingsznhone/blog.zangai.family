@@ -37,7 +37,7 @@ site:
 #! Authors Configs
 #！ @docs https://aurora.tridiamond.tech/guide/authors.html
 #! ---------------------------------------------------------------
-authors:
+#authors:
   ##! example
   # ZNH:
   #   name: TriDiamond
@@ -106,7 +106,7 @@ socials:
 #! ---------------------------------------------------------------
 site_meta:
   cdn: cn
-  favicon:
+  favicon: /img/7D2FBE3C.jpg
   description: ''
   keywords: ''
   author: ''
