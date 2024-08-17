@@ -26,7 +26,7 @@ site:
   #   link: ''
   # Start date of the blog YYY-MM-DD
   # 博客开始运行日期
-  started_date:
+  started_date: '2024-07-28'
   # Path unique identifier (文章 URL 唯一标识)
   # uid: use unique ID
   # slug: use generated slug base on title

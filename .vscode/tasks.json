@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Clean and Generate",
+        "type": "shell",
+        "command": "hexo clean && hexo generate",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Clean the Hexo site, generate the files, and then start the server."
+      }
+    ]
+  }
