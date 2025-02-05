@@ -3,7 +3,8 @@ title: 都什么年代了还在用[DllImport]?
 date: 2024-07-17 00:58:14
 tags:
   - .NET
-cover: /img/8AD9D0B2.webp
+  - C#
+cover: /img/2024-07-17/cover.jpg
 ---
 
 # 概述
@@ -114,4 +115,4 @@ public partial class Calculator
 
 .NET 的高性能离不开神一样的底层转译和基础库，向默默无闻的coreclr和ryujit开发者致敬。
 
-![Alt Text](/img/D9B93A9B.gif)
+![Alt Text](img/2024-07-17/1.gif)

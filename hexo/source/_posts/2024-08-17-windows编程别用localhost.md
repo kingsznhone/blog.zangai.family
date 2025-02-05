@@ -3,7 +3,8 @@ title: 网络编程慎用localhost
 date: 2024-08-17 22:40:56
 tags: 
   - .NET
-cover: ./img/localhost-meaning.png
+  - C#
+cover: ./img/2024-08-17/cover.jpg
 ---
 
 前几天写web app的时候，在本机开了一个dummy host，然后在.NET项目中使用`HttpClient`访问http://localhost:7410/start
