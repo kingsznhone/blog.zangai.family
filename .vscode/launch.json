@@ -10,7 +10,6 @@
                 "run",
                 "server"
             ],
-            "port": 4000,
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/hexo",
             "preLaunchTask": "Clean and Generate"
