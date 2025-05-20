@@ -3,7 +3,6 @@ title: 网络编程慎用localhost
 date: 2024-08-17 22:40:56
 tags: 
   - .NET
-  - C#
 cover: ./img/2024-08-17/cover.jpg
 ---
 

@@ -2,7 +2,7 @@
 title: ASP.NET CORE 数据模型的自定义base58校验
 date: 2025-05-21 03:53:04
 tags: 
-    - C#
+    - .NET
 cover: /img/2025-05-21/cover.jpg
 ---
 
