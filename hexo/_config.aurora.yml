@@ -105,8 +105,8 @@ socials:
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 site_meta:
-  cdn: cn
-  favicon: /img/7D2FBE3C.jpg
+  cdn: en
+  favicon: /img/avatar.jpg
   description: ''
   keywords: ''
   author: ''
