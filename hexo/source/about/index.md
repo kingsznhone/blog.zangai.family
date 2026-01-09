@@ -9,7 +9,7 @@ date: 2024-07-14 17:34:28
 
 - Web1.0土著，微信是工作，QQ是生活，原教旨主义Hacker，梗小鬼
 
-- 全栈工程师，dotnet信徒，i炮，没🐎的逆向小B网游外挂作者，某小微AI公司技术顾问
+- 全栈工程师，dotnet信徒，i炮，没🐎的逆向小B网游外挂作者，某小微公司的技术顾问
 
 - B站某不知名科技&游戏UP
 
@@ -23,8 +23,8 @@ date: 2024-07-14 17:34:28
 
 - Steam死肥宅，cs1.6本市网吧服一霸
 
-- FFXIV中国のデータセンター60代のBlack Mage伝説
+- FFXIV中華のデータセンター60代のBlack Mage伝説
 
-- All in boom DIY Windows NAS玩家
+- All in boom DIY灵车 Windows NAS玩家
 
-![about](./img/480BB4FD.jpg)
+![about](./img/about.jpg)
