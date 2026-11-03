@@ -12,7 +12,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'latest'
+          node-version: '24'
 
       - name: Install Hexo
         run: npm install -g hexo-cli
@@ -23,6 +23,10 @@ jobs:
 
       - name: Generate static files
         run: hexo generate
+        working-directory: ./hexo
+
+      - name: Verify Aurora API output
+        run: test -f public/api/site.json && test -f public/api/tags.json
         working-directory: ./hexo
 
       - name: Upload artifact

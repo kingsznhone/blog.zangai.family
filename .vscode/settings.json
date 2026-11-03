@@ -1,5 +1,3 @@
 {
-    "yaml.schemas": {
-        "https://json.schemastore.org/yamllint.json": "file:///d%3A/Coding/Blog/hexo/_config.aurora.yml"
-    }
+    "yaml.schemas": {}
 }
